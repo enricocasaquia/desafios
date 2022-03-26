@@ -1,0 +1,41 @@
+var nome = prompt ("Digite seu nome no campo abaixo:");
+var idade = prompt ("Digite sua idade no campo abaixo:");
+var programacao = prompt ("Digite qual linguagem de programação você está estudando no campo abaixo:");
+
+var mns = "Seu nome é " + nome + ", você tem " + idade + " anos de idade" + " e está estudando " + programacao + "."
+alert(mns);
+
+// ------------------------------------------------------------------------------------------------------
+var opiniao = prompt ("Você gosta de estudar " + programacao + "? Responda 1 para SIM ou 2 para NÃO");
+var mns1 = "Muito bom! Continue estudando e você terá muito sucesso.";
+var mns2 = "Ahh que pena... Já tentou aprender outras linguagens?";                 
+var mnsErro = prompt ("Insira 1 ou 2.");
+
+
+if (opiniao > 2) {
+ mnsErro;
+}
+if (mnsErro == 1) {
+  alert(mns1);
+}
+else if (mnsErro == 2) {
+  alert(mns2);
+}
+while (mnsErro != 1 && mnsErro != 2) {
+  mnsErro;
+}
+
+
+
+if (opiniao < 1) {
+ mnsErro;
+}
+if (mnsErro == 1) {
+  alert(mns1);
+}
+else if (mnsErro == 2) {
+  alert(mns2);
+}
+while (mnsErro != 1 && mnsErro != 2) {
+  mnsErro;
+}
