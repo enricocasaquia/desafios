@@ -1,41 +1,23 @@
-var nome = prompt ("Digite seu nome no campo abaixo:");
-var idade = prompt ("Digite sua idade no campo abaixo:");
-var programacao = prompt ("Digite qual linguagem de programação você está estudando no campo abaixo:");
+var numero = 1
+var string = "1"
 
-var mns = "Seu nome é " + nome + ", você tem " + idade + " anos de idade" + " e está estudando " + programacao + "."
-alert(mns);
+if (numero == string) {
+    console.log("As variáveis tem o mesmo valor, mas não são iguais")
+} 
 
-// ------------------------------------------------------------------------------------------------------
-var opiniao = prompt ("Você gosta de estudar " + programacao + "? Responda 1 para SIM ou 2 para NÃO");
-var mns1 = "Muito bom! Continue estudando e você terá muito sucesso.";
-var mns2 = "Ahh que pena... Já tentou aprender outras linguagens?";                 
-var mnsErro = prompt ("Insira 1 ou 2.");
-
-
-if (opiniao > 2) {
- mnsErro;
-}
-if (mnsErro == 1) {
-  alert(mns1);
-}
-else if (mnsErro == 2) {
-  alert(mns2);
-}
-while (mnsErro != 1 && mnsErro != 2) {
-  mnsErro;
+else {
+    console.log("As variáveis não tem o mesmo valor e são diferentes")
 }
 
+// ---------------------------------------------------------------------------------------------------
 
+var numero1 = 5
+var string1 = "3"
 
-if (opiniao < 1) {
- mnsErro;
+if (numero1 == string1) {
+  console.log("As variávies tem o mesmo valor, mas são diferentes")
+} 
+else {
+  console.log("As variáveis não tem o mesmo valor e são diferentes")
 }
-if (mnsErro == 1) {
-  alert(mns1);
-}
-else if (mnsErro == 2) {
-  alert(mns2);
-}
-while (mnsErro != 1 && mnsErro != 2) {
-  mnsErro;
-}
+// --------------------------------------------------------------------------------------------------
