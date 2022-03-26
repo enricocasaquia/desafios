@@ -1,0 +1,23 @@
+var numero = 1
+var string = "1"
+
+if (numero == string) {
+    console.log("As variáveis tem o mesmo valor, mas não são iguais")
+} 
+
+else {
+    console.log("As variáveis não tem o mesmo valor e são diferentes")
+}
+
+// ---------------------------------------------------------------------------------------------------
+
+var numero1 = 5
+var string1 = "3"
+
+if (numero1 == string1) {
+  console.log("As variávies tem o mesmo valor, mas são diferentes")
+} 
+else {
+  console.log("As variáveis não tem o mesmo valor e são diferentes")
+}
+// --------------------------------------------------------------------------------------------------
